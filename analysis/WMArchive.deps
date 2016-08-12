@@ -1,0 +1,10 @@
+Modules not supported in python3: 
+avro
+cookielib
+httplib
+pydoop
+pyspark
+Queue
+urllib2
+WMArchive
+WMCore

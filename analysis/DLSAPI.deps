@@ -1,0 +1,19 @@
+Modules not supported in python3: 
+commands
+DBSAPI
+dbsCgiApi
+dbsException
+dliClient
+dlsApi
+dlsApiExceptions
+dlsClient
+dlsDataObjects
+dlsLfcApi
+dlsPhedexApi
+lfc
+MySQLdb
+Queue
+sgmllib
+urllib2
+urlparse
+ZSI

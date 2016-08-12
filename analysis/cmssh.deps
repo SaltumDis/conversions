@@ -1,0 +1,11 @@
+Modules not supported in python3: 
+cmssh
+cookielib
+coral
+cStringIO
+httplib
+OpenSSL
+RecoLuminosity
+StringIO
+thread
+urllib2

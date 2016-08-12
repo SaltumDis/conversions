@@ -1,0 +1,6 @@
+Modules not supported in python3: 
+cStringIO
+T0
+T0Component
+WMCore
+WMQuality

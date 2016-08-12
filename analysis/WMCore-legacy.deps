@@ -1,0 +1,19 @@
+Modules not supported in python3: 
+apmon
+cjson
+cPickle
+cStringIO
+DBSAPI
+dlsApi
+dlsClient
+httplib
+IMProv
+md5
+netbios
+rfc822
+StringIO
+urllib2
+urlparse
+win32wnet
+WMCore
+WMQuality

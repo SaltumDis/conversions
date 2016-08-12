@@ -1,0 +1,7 @@
+Modules not supported in python3: 
+cjson
+cStringIO
+ldap
+SiteDB
+urllib2
+WMCore

@@ -1,0 +1,20 @@
+Modules not supported in python3: 
+Apps
+ConfDBAuth
+cPickle
+cStringIO
+DBSSecrets
+djangokey
+HTMLParser
+httplib
+mechanize
+Monitoring
+OpenSSL
+Queue
+SiteDB
+T0WmaDataSvc
+thread
+urllib2
+urlparse
+victor_db
+WMCore

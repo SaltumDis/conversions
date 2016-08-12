@@ -1,0 +1,26 @@
+Modules not supported in python3: 
+antlr3
+antrl
+Cheetah
+cjson
+cookielib
+cPickle
+cStringIO
+DAS
+get_schema
+gridfs
+HTMLParser
+httplib
+md5
+memcache
+mongoengine
+Queue
+Stemmer
+StringIO
+thread
+urllib2
+urlparse
+WMCore
+xmlrpclib
+yajl
+yaml

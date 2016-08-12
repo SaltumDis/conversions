@@ -1,0 +1,14 @@
+Modules not supported in python3: 
+cjson
+CMSCompAnalytics
+cookielib
+DCAF
+HTMLParser
+httplib
+pyspark
+sklearn
+SPARK
+StringIO
+urllib2
+xgboost
+yajl

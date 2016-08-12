@@ -1,0 +1,19 @@
+Modules not supported in python3: 
+cStringIO
+dbs
+DBSAPI
+dump
+dumps
+gfal
+graphtool
+httplib
+JSONDecoder
+JSONEncoder
+load
+loads
+phedexgraphs
+reports
+sets
+StringIO
+toolKIT
+urllib2

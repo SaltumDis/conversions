@@ -1,0 +1,12 @@
+Modules not supported in python3: 
+AdderPluginBase
+AsyncStageOut
+AsyncStageOut_t
+CouchAPI
+cStringIO
+dbs
+RestClient
+stomp
+StringIO
+WMCore
+WMQuality

@@ -1,0 +1,25 @@
+Modules not supported in python3: 
+cjson
+cPickle
+cStringIO
+DataProvider
+dbs
+DBSAPI
+dbsclient_t
+DBSSecret
+DBSSecrets
+dbsserver_t
+httplib
+LifeCycleAnalysis
+LifeCycleTests
+LifeCycleTools
+memcache
+RestClient
+ROOT
+SimpleXMLRPCServer
+StringIO
+urllib2
+urlparse
+WMCore
+xmlrpclib
+yaml

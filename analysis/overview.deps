@@ -1,0 +1,20 @@
+Modules not supported in python3: 
+adns
+ASInfo
+cjson
+cStringIO
+GeoIP
+GeoIPInfo
+GeoIPLookup
+IPResolver
+IPTask
+Overview
+PublicSuffixLookup
+python
+shapefile
+urllib2
+URL_MAXMIND_GEOCITY
+URL_MOZILLA_PSL
+urlparse
+WMCore
+yaml

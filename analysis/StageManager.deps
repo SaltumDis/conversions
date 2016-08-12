@@ -1,0 +1,4 @@
+Modules not supported in python3: 
+httplib
+StageManager
+WMCore

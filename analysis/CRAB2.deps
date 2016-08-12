@@ -1,0 +1,25 @@
+Modules not supported in python3: 
+cjson
+commands
+CRAB_Server_API
+CRAB_Server_API_1_1
+CRAB_Server_API_311X
+CRAB_Server_API_36X
+dbs
+DBSAPI
+dlsApi
+dlsClient
+dlsDataObjects
+FWCore
+httplib
+IMProv
+IOMC
+lib64
+ProdCommon
+RestClient
+sha
+statvfs
+StringIO
+urllib2
+urlparse
+WMCore

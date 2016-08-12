@@ -1,0 +1,12 @@
+Modules not supported in python3: 
+Apps
+cPickle
+cStringIO
+dashboard
+dq2
+httplib
+lib
+phedexRequest
+SocketServer
+urllib2
+yaml

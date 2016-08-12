@@ -1,0 +1,9 @@
+Modules not supported in python3: 
+cjson
+cookielib
+core
+DataProvider
+httplib
+LifeCycleDAS
+urllib2
+yajl

@@ -1,0 +1,4 @@
+Modules not supported in python3: 
+MySQLdb
+pgdb
+sets

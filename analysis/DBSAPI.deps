@@ -1,0 +1,15 @@
+Modules not supported in python3: 
+cStringIO
+DBSAPI
+DBSAPIOLD
+dbsApiRemap_DEPRECATED
+dbsApiRemapFiles_DEPRECATED
+dlsApi
+dlsClient
+dlsDataObjects
+hotshot
+httplib
+RS
+StringIO
+urllib2
+urlparse

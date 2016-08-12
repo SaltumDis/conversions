@@ -1,0 +1,6 @@
+Modules not supported in python3: 
+fm
+httplib
+sets
+urllib2
+WMCore

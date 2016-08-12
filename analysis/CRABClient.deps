@@ -1,0 +1,19 @@
+Modules not supported in python3: 
+cPickle
+CRABAPI
+CRABClient
+dbs
+execRaw
+getAllLoggers
+getLogger
+getTask
+httplib
+PandaServerInterface
+RESTInteractions
+ServerUtilities
+setLogging
+Task
+urllib2
+urlparse
+WMCore
+WMQuality
