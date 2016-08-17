@@ -21,7 +21,7 @@ DAS ---  part of dmwm
 get_schema --- our own
 gridfs --- supported
 HTMLParser --- Not supproted. Renamed to html.parser. The 2to3 tool will automatically adapt imports
-md5 --- Not supported.  Use the hashlib.md5 module instead
+md5 --- Not supported.  Use the hashlib.md5 module instead. Only old projects use it.
 memcache --- used in OLD only
 mongoengine --- supported
 Queue --- not supported. Renamed to queue. The 2to3 tool will automatically adapt imports.
@@ -80,7 +80,7 @@ classad --- supported. Need to recompile. http://research.cs.wisc.edu/htcondor/c
 Configuration ---  renamed to configparser in Python 3. The 2to3 tool will automatically adapt imports
 Controllers --- not supported????? only used in WMCore/src/python/WMCore/WebTools/Masthead.py
 couchapp --- not supported. Should be supported soon. http://stackoverflow.com/questions/5849316/is-there-a-simpler-couchapp-than-couchapp
-dbs --- not supported? Our own. CMS Dataset Bookkeeping Service
+dbs --- part of dmwm
 dbs3Client --- not supported? our own. https://github.com/CMSCompOps/WmAgentScripts/blob/master/dbs3Client.py
 dcap --- not supported. https://github.com/alexanderwaldin/dcap
 get_dbs --- __all__
@@ -88,13 +88,13 @@ get_remote_queue --- __all__
 hotshot --- Not supported. The "hotshot" module disappeared in Python3.x.
 htcondor --- supported. (Is connected with classad). Need to recompile.
 Integration_t --- our own
-mox --- not supported. Use https://pypi.python.org/pypi/mock
+mox --- not supported. Use https://pypi.python.org/pypi/mock or https://pypi.python.org/pypi/mox3
 PSetTweaks --- our own
 queueConfigFromConfigObject  --- __all__
 queueFromConfig  --- __all__
 ReqMgr --- our own
 ReqMgrSecrets --- our own. We creat it
-RestClient --- not supported. Custom lib. Need to update it: https://github.com/giffels/RestClient
+RestClient --- supported. Custom lib
 StageOut --- our own
 WMComponent --- our own
 WMCore_t --- our own
@@ -156,14 +156,14 @@ PublicSuffixLookup  --- __all__
 shapefile --- supported
 URL_MAXMIND_GEOCITY  --- __all__
 URL_MOZILLA_PSL  --- __all__
-CRABAPI ---  --- not supported. Uses https://github.com/PerilousApricot/CRABAPI
-execRaw --- not supported. Uses https://github.com/PerilousApricot/CRABAPI
-getAllLoggers --- not supported. Uses https://github.com/PerilousApricot/CRABAPI
-getLogger --- not supported. Uses https://github.com/PerilousApricot/CRABAPI
-getTask --- not supported. Uses https://github.com/PerilousApricot/CRABAPI
+CRABAPI --- our own
+execRaw --- our own
+getAllLoggers --- our own
+getLogger --- our own
+getTask --- our own
+setLogging --- our own
+Task --- our own
 PandaServerInterface --- our own
-setLogging --- not supported. Uses https://github.com/PerilousApricot/CRABAPI
-Task --- not supported. Uses https://github.com/PerilousApricot/CRABAPI
 CRAB_Server_API --- not know? Our own
 CRAB_Server_API_1_1 --- not know? Our own
 CRAB_Server_API_311X --- not know? Our own

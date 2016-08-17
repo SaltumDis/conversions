@@ -1,4 +1,3 @@
-
 ------------------------------------------------------------------------------------- Into what module it should be changed?
 
 cjson --- not supported. Use json? or https://pypi.python.org/pypi/simplejson/
@@ -7,8 +6,6 @@ Used in projects: das, sitedb, DMWMAnalytics, CRABServer, WMCore-legacy, DBS, ov
 yajl - Not supported. Port to https://github.com/rtyler/py-yajl/ or original: https://github.com/pykler/yajl-py:  if using python3, yajl-py expects bytes and not strings
 Used in projects: das, DMWMAnalytics, LifeCycle
 
-restkit --- not supported. (Prosmised support in 2011) http://restkit.readthedocs.io/en/latest/. Do we need it?
-Used in projects: ContinuousIntegration
 
 MySQLdb --- not supported. Use: https://pypi.python.org/pypi/mysqlclient
 Used in projects: ProdCommon, DMWMMON, DLSAPI
@@ -28,25 +25,11 @@ Used in projects: WMCore, DBSAPI
 pydoop --- not supported. Use: https://github.com/Yelp/mrjob ; http://blog.cloudera.com/blog/2013/01/a-guide-to-python-frameworks-for-hadoop/
 Used in projects: WMArchive
 
-sgmllib --- not supported. Could use built-in HTMLParser module: http://docs.python.org/py3k/library/html.parser.html
-Used in projects: DLSAPI
-
-ZSI --- not supported. discontinued Python 2 project. Could use: https://github.com/pysimplesoap/pysimplesoap
-Used in projects: DLSAPI
-
-lfc --- not supported. http://linux.die.net/man/3/lfc_python ????? change into what?
-Used in projects: DLSAPI
 
 ------------------------------------------------------------------------------------- Libraries from other CERN projects??
 
 FWCore --- not supported. Our own. https://github.com/cms-sw/cmssw/tree/CMSSW_8_1_X/FWCore
 Used in projects: ContinuousIntegration, ProdCommon, WMCore, CRABServer, CRAB2
-
-clarens_util --- not supported. Our own? http://www.puenterswis.ch/webcam/psp/image.py
-Used in projects: ProdCommon
-
-dbsCgiApi --- not supported. Our own https://github.com/bbockelm/DBS/blob/master/Clients/PythonAPI/dbsCgiApi.py
-Used in projects: ProdCommon, DLSAPI
 
 glite_wmsui_LbWrapper --- not supported. our own. 'glite_wmsui_LbWrapper' exists on both gLite 3.1 and gLite 3.2
 Used in projects: ProdCommon, WMCore
@@ -73,6 +56,7 @@ AdderPluginBase --- panda. Our own? If not available will create dummy class for
 Used in projects: AsyncStageout
 
 
+CRABAPI ---- why we are using rep from private rep???
 CRABAPI ---  --- not supported. Uses https://github.com/PerilousApricot/CRABAPI
 Used in projects: CRABClient
 execRaw --- not supported. Uses https://github.com/PerilousApricot/CRABAPI
@@ -90,14 +74,7 @@ Used in projects: CRABClient
 
 
 -------------------------------------------------------------------------------------  ??? Where do we get these from ???
-ProdAgentDB --- not found. We create it?
-Used in projects: ProdCommon
 
-ProdAgentCore --- not found. https://twiki.cern.ch/twiki/bin/view/Main/LSCSWorkbook
-Used in projects: ProdCommon
-
-RunRes --- not found. No idea where this is from
-Used in projects: ProdCommon
 
 Controllers --- not supported????? only used in WMCore/src/python/WMCore/WebTools/Masthead.py
 Used in projects: WMCore
@@ -108,15 +85,11 @@ Used in projects: PHEDEX
 graphtool --- not supported. Our own? https://github.com/djw8605/graphtool
 Used in projects: PHEDEX
 
-PhysicsTools --- not supported??? No idea how we import it. https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookConfigFileIntro
-Used in projects: CRABServer
 
-RS --- not found. Used in: DBSAPI/Clients/Python/DBSAPI/dbsApi.py:143: RS.Wrapper.RegService
-Used in projects: DBSAPI
 
 
 ------------------------------------------------------------------------------------- Modules that can be changed into very simular ones
-sets --- not upported. Use set
+sets --- not supported. Use set
 Used in projects: FileMover, ProdCommon, PHEDEX, DMWMMON
 cPickle --- not supported. Just use normal pickle
 Used in projects: DDM, das, ProdCommon, deployment, WMCore, CRABServer, WMCore-legacy, DBS, CRABClient
@@ -130,18 +103,12 @@ StringIO --- not supported. Use io.StringIO
 Used in projects: das, ProdCommon, DMWMAnalytics, WMCore, PHEDEX, CRABServer, WMCore-legacy, DBS, CRAB2, DBSAPI, cmssh, AsyncStageout
 ldap --- not supported. Use https://pypi.python.org/pypi/ldap3
 Used in projects: sitedb, ProdCommon
-__builtin__ --- not supported. Renamed to builtins in Python3
-Used in projects: ContinuousIntegration, ProdCommon
 new --- not supported. Use the types module’s classes instead.
 Used in projects: Sandbox
 commands --- not supported. Use the subprocess module instead
 Used in projects: ProdCommon, WMCore, CRABServer, DQIS, CRAB2, DLSAPI
 popen2 --- not supported. Use the subprocess module.
 Used in projects: ProdCommon, WMCore
-pysqlite2 --- not supported. Renamed to: sqlite3
-Used in projects: ProdCommon
-sha --- not supoorted. Use the hashlib module instead.
-Used in projects: ProdCommon, CRAB2
 pyspark --- supported. (was not tested)
 Used in projects: DMWMAnalytics, WMArchive
 mox --- not supported. Use https://pypi.python.org/pypi/mock
@@ -195,5 +162,48 @@ DBSAPIOLD --- not used. Still used in: DBSAPI/Clients/Python/DBSAPI/UnitTests/db
 Used in projects: DBSAPI
 dbsApiRemap_DEPRECATED --- not used. WHY IS IT SILL THERE? DBSAPI/Clients/Python/DBSAPI/dbsApi.py
 Used in projects: DBSAPI
-dbsApiRemapFiles_DEPRECATED --- not used. WHY IS IT SILL THERE? DBSAPI/Clients/Python/DBSAPI/dbsApi.py
+dbsApiRemapFiles_fj --- not used. WHY IS IT SILL THERE? DBSAPI/Clients/Python/DBSAPI/dbsApi.py
 Used in projects: DBSAPI
+
+
+UNUSED-------------------------------------------------------------------------------------
+ProdAgentDB --- not found. We create it?
+Used in projects: ProdCommon
+
+ProdAgentCore --- not found. https://twiki.cern.ch/twiki/bin/view/Main/LSCSWorkbook
+Used in projects: ProdCommon
+
+RunRes --- not found. No idea where this is from
+Used in projects: ProdCommon
+PhysicsTools --- not supported??? No idea how we import it. https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookConfigFileIntro
+Used in projects: CRABServer
+
+RS --- not found. Used in: DBSAPI/Clients/Python/DBSAPI/dbsApi.py:143: RS.Wrapper.RegService
+Used in projects: DBSAPI
+
+restkit --- not supported. (Prosmised support in 2011) http://restkit.readthedocs.io/en/latest/. Do we need it?
+Used in projects: ContinuousIntegration
+
+sgmllib --- not supported. Could use built-in HTMLParser module: http://docs.python.org/py3k/library/html.parser.html
+Used in projects: DLSAPI
+
+ZSI --- not supported. discontinued Python 2 project. Could use: https://github.com/pysimplesoap/pysimplesoap
+Used in projects: DLSAPI
+
+lfc --- not supported. http://linux.die.net/man/3/lfc_python ????? change into what?
+Used in projects: DLSAPI
+
+clarens_util --- not supported. Our own? http://www.puenterswis.ch/webcam/psp/image.py
+Used in projects: ProdCommon
+
+dbsCgiApi --- not supported. Our own https://github.com/bbockelm/DBS/blob/master/Clients/PythonAPI/dbsCgiApi.py
+Used in projects: ProdCommon, DLSAPI
+
+__builtin__ --- not supported. Renamed to builtins in Python3
+Used in projects: ContinuousIntegration, ProdCommon
+
+pysqlite2 --- not supported. Renamed to: sqlite3
+Used in projects: ProdCommon
+
+sha --- not supoorted. Use the hashlib module instead.
+Used in projects: ProdCommon, CRAB2
